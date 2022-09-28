@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-	num = list(map(lambda n: n**2, matrix))
-	return num
+    for p in range (0, len(matrix)):
+        matrix[p] = (matrix[p]**2)
+        return (matrix)

@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    return [[y ** 2 for y in x] for x in matrix]
+	num = list(map(lambda n: n**2, matrix))
+	return num

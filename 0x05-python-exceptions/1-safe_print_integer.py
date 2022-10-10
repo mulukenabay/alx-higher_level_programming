@@ -1,7 +1,8 @@
-#!/usr/bin/python3
+#!usr/bin/python3
 def safe_print_integer(value):
+    x = print("{:d}".format(value))
     try:
-        print("{:d}".format(value))
-        return True
+        if x != 'NULL':
+            return True
     except:
-        return False
+            return False

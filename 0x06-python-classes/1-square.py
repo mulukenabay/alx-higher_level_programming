@@ -1,8 +1,14 @@
-#!usr/bib/python3
-"""a class square """
+#!/usr/bin/python3
+
+"""Define a class Square."""
+
+
 class Square:
-    ''' aprivate instance attribute'''
-    def __int__(self, size):
-        self.__size = size
-s= Square()
-s.size
+    """Represent a square."""
+
+    def __init__(self, size):
+        """Initialize a new Square.
+        Args:
+            size (int): The size of the new square.
+        """
+        self.__size = 

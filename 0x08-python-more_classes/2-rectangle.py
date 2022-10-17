@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Rectangle Module- For rectangular purposes only """
+""" Rectangle Module- For rectangular purposes only."""
 
 
 class Rectangle:
@@ -51,3 +51,17 @@ class Rectangle:
         if value < 0:
             raise ValueError('height must be >= 0')
         self.__height = value
+
+    # Public instance method,def area(self),returns the rectangle area
+    def area(self):
+        """ returns area of rectangle """
+        return self.__width * self.__height
+
+    # Public instance method,def perimeter(self),
+    # returns the rectangle perimeter
+    def perimeter(self):
+        """ returns perimeter of rectangle """
+        # if width or height is equal to 0, perimeter is equal to 0
+        if self.__width == 0 or self.__height == 0:
+            return (0)
+        return ((self.__width * 2) + (self.__height * 2))

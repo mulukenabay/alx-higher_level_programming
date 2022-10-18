@@ -1,3 +1,3 @@
 #!/usr/bin3
-def copy_list(a):
-    return a[:]
+def copy_list(l):
+    return l[:]

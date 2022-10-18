@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 def copy_lint(l):
-    l = [1, 2, 3, 4]
-    return (l.coppy()) 
+    new_list = l.copy()
+    return new_list

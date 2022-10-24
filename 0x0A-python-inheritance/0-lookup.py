@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 ''' a python class with one method whic returns a list'''
 
 

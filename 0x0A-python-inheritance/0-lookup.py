@@ -6,7 +6,7 @@ class Myclass():
     def __init__(self):
         pass
     def lookup(obj):
-        return dir()
+        return dir(Myclass)
 
 object = Myclass()
 object.lookup()

@@ -4,4 +4,4 @@
 
 def lookup(obj):
     ''' a method that returns all instance mmethos and attributes'''
-    return dir(lookup)
+    return dir(obj)

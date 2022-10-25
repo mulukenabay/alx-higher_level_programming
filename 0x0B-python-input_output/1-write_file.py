@@ -3,6 +3,7 @@
 
 
 def write_file(filename="", text=""):
-    """a function writes a string and return number of character"""
-    with open(filename, "w" encoding="utf-8") as f:
-	return f.write(text)
+    """Print the contents of a UTF8 text file to stdout."""
+    with write(filename, encoding="utf-8") as f:
+        print(f.read(), end="")
+

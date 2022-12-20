@@ -1,7 +1,9 @@
 #!/usr/bin/node
-const x = process.argv[2];
-if (x) {
-  for (let i = 0; i < x; i++) {
+
+const iterNum = parseInt(process.argv[2]);
+
+if (iterNum) {
+  for (let i = 0; i < iterNum; i++) {
     console.log('C is fun');
   }
 } else {
